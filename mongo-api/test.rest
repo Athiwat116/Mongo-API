@@ -1,0 +1,29 @@
+########## Category Create
+POST http://127.0.0.1:5000/category/create
+Content-Type:  application/json
+
+{
+    "categoryName": "Toy",
+    "description": "Minmama"
+}
+
+######### Category get all
+GET  http://127.0.0.1:5000/category/getall
+
+######### Category get by id
+GET http://127.0.0.1:5000/category/
+
+############ Category Update 
+                   
+PUT http://127.0.0.1:5000/category/updatebyid/66c5a321215cead6c10cce8b
+Content-Type:  application/json
+
+{
+    "categoryName": "Category01",
+    "description": "Kapokmha"
+}
+
+
+########### Category delete
+
+DELETE http://127.0.0.1:5000/category/deletebyid/
